@@ -33,12 +33,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Install Pydoc
-        run: pip install pydoc
-      - name: Create documentation     
-        run: pydoc -w main
-      - name: move doc
-        run: mv *.html html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
