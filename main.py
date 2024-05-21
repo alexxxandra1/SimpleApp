@@ -8,3 +8,4 @@ class SimpleApplication:
 
 if __name__ == "__main__":
     app = SimpleApplication("Hello world")
+    app.print_message()
