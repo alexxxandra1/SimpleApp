@@ -22,4 +22,5 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Testing
-        run: python test_main.py
+      - run: pip install pytest
+      - run: pytest
