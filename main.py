@@ -1,5 +1,5 @@
 class SimpleApplication:
-    def __init__(self, message=""):
+    def __init__(self, message="", author="untitled"):
         self.message = message
 
     def print_message(self):
